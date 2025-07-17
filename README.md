@@ -1,4 +1,4 @@
-# 2025.07.16 git bash, markdown
+# git bash, markdown
 ---
 ### git bash 명령어
 - . : 현재 디렉토리
@@ -44,4 +44,4 @@ print('hello')
 
 ---
 
-제어판 → window 자격 증명 → github 계정 제가
+제어판 → window 자격 증명 → github 계정 제거
