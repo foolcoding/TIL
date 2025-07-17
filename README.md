@@ -38,8 +38,15 @@ print('hello')
 - git push 별칭 (+)remote_repo_url : 로컬저장소 변경 내용 업로드, +는 강제실행
 - git pull 별칭 remote_repo_url :  원격저장소 변경 내용 다운로드
 - git clone remote_repo_url : 원격 저장소 전체를 복제 (다운로드) (git init도 따라옴)
-- git rm —cashed : git 캐시에서 삭제
-- git revert commitid : 특정 커밋 실행취소
+- git revert commitid : 특정 커밋 실행취소, ..로 연결해서 여러 커밋가능
+- git reset [옵션] commit_id : 특정 커밋으로 되돌리기, 되돌린 이후 커밋 삭제
+    - —soft : 삭제한 커밋의 기록 스테이징에 남기기
+    - —mixed : 삭제한 커밋의 기록 워킹디렉토리에 남김(기본)
+    - —hard : 삭제된 커밋 기록 안남김
+- git flog : 이전의 모든 기록 보여줌 (—hard로 지워진 커밋도 조회가능)
+- git restore filename : 수정 상태의 파일 되돌리기 (복원 불가능)
+- git rm —cached filename : 스테이징에서 워킹으로 되돌리기 (커밋 없을때)
+- git restore —staged filename : 스테이징에서 워킹으로 되돌리기 (커밋 있을때)
 
 ## 자리 옮길때
 
