@@ -38,7 +38,8 @@ print('hello')
 - git push 별칭 (+)remote_repo_url : 로컬저장소 변경 내용 업로드, +는 강제실행
 - git pull 별칭 remote_repo_url :  원격저장소 변경 내용 다운로드
 - git clone remote_repo_url : 원격 저장소 전체를 복제 (다운로드) (git init도 따라옴)
-- git rm —cashed : git 캐시에서 삭스
+- git rm —cashed : git 캐시에서 삭제
+- git revert commitid : 특정 커밋 실행취소
 
 ## 자리 옮길때
 
